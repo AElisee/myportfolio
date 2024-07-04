@@ -1,17 +1,17 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-const inter = Inter({ subsets: ["latin"] });
+import { Space_Grotesk } from "next/font/google";
+import "../styles/globals.css";
+const space_Grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ange-Elisée Kouassi",
+  title: "Ange-Elisee Kouassi",
   description: "Développeur fullstack MERN | React.js | Next.js | MongoDB",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <body
-        className={`${inter.className} w-screen h-screen bg-gradient-to-b from-blue-50 to-orange-50 px-4`}
+        className={`${space_Grotesk.className} w-full bg-gradient-to-b from-blue-50 to-orange-50`}
       >
         {children}
       </body>
