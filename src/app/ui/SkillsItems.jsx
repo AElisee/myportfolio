@@ -12,7 +12,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiNpm } from "react-icons/si";
-import { SiHostinger } from "react-icons/si";
+import { IoLogoVue } from "react-icons/io5";
 
 const SkillsItems = () => {
   return (
@@ -90,6 +90,16 @@ const SkillsItems = () => {
       {/* item */}
       <div className="w-1/3 flex flex-col h-[110px] gap-2 p-2">
         <div className="flex items-center justify-center shadow-md h-4/5">
+          <IoLogoVue className="text-3xl text-[#42B883] hover:text-4xl" />
+        </div>
+        <div className="h-1/5 flex justify-center items-center">
+          <p className="text-base">Vue.js</p>
+        </div>
+      </div>
+      {/* --- */}
+      {/* item */}
+      <div className="w-1/3 flex flex-col h-[110px] gap-2 p-2">
+        <div className="flex items-center justify-center shadow-md h-4/5">
           <FaNodeJs className="text-3xl text-[#58A149] hover:text-4xl" />
         </div>
         <div className="h-1/5 flex justify-center items-center">
@@ -134,6 +144,16 @@ const SkillsItems = () => {
         </div>
         <div className="h-1/5 flex justify-center items-center">
           <p className="text-sm">Photoshop</p>
+        </div>
+      </div>
+      {/* --- */}
+      {/* item */}
+      <div className="w-1/3 flex flex-col h-[110px] gap-2 p-2">
+        <div className="flex items-center justify-center shadow-md h-4/5">
+          <FaGithub className="text-3xl text-[#001D34] hover:text-4xl" />
+        </div>
+        <div className="h-1/5 flex justify-center items-center">
+          <p className="text-sm">GitHub</p>
         </div>
       </div>
       {/* --- */}

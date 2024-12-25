@@ -5,12 +5,12 @@ import { FaEye } from "react-icons/fa";
 const Card = ({ project }) => {
   return (
     <div className="min-w-[380px] w-full md:w-[49%]   h-[290px] rounded-md mb-3">
-      <div className="h-5/6 bg-slate-200 relative rounded-lg shadow-md overflow-hidden">
+      <div className="h-5/6 bg-slate-200 relative rounded-lg shadow-md overflow-hidden transition hover:transform -rotate-1">
         <Image
           src={project.image}
           fill
           alt={project.url}
-          className="w-full h-full object-cover object-center "
+          className="w-full h-full object-cover object-center transition hover:transform hover:scale-125"
         />
       </div>
       <div className="h-1/6 p-2 w-full flex justify-end items-center  ">

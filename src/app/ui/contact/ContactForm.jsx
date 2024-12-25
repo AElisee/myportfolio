@@ -83,7 +83,7 @@ const ContactForm = () => {
       </div>
       <div className="w-full">
         <label htmlFor="subject" className="w-full">
-          Object <span>*</span>
+          Objet <span>*</span>
         </label>
         <input
           type="text"

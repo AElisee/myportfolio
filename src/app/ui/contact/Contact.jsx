@@ -41,7 +41,7 @@ const Contact = () => {
                     size={21}
                     className="text-slate-400"
                   />
-                  (+255) 05 84 84 09 30
+                  (+225) 05 84 84 09 30
                 </p>
                 <a
                   href="https://www.linkedin.com/in/angekouassi"
