@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Navlink from "./Navlink.jsx";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
+import Image from "next/image.js";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -40,7 +41,18 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 w-[100%] h-[60px] py-3 md:px-4 flex glass items-center justify-between px-4  z-50  rounded-md">
       <div className="w-1/5">
-        <div className="hidden md:block text-3xl">👋</div>
+        <div className="hidden md:block text-3xl">
+          <div className="w-[35px] h-[35px] cursor-pointer rounded-full  overflow-hidden">
+            <div className="w-full h-full relative">
+              <Image
+                src="/images/ange-Elisee.jpg"
+                fill
+                alt="Ange-Elisée Kouassi"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
         <div
           className="md:hidden cursor-pointer"
           onClick={() => setIsOpen((prev) => !prev)}

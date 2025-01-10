@@ -5,7 +5,7 @@ export const projects = [
     url: "http://miningolympiades.org/",
     description:
       "Un site web dynamique créé pour promouvoir et gérer l'événement Mining Olympiades 2024. Participation en freelance pour développer des fonctionnalités interactives et des interfaces intuitives afin d'améliorer l'expérience utilisateur.",
-    stack: "Synfony, React.js, Sass(Scss)",
+    stack: "Synfony + React.js + Sass(Scss)...",
   },
   {
     title: "Site de Cabinet",
@@ -13,7 +13,7 @@ export const projects = [
     url: "https://improveafrica-consulting.com/",
     description:
       "Création d'un site professionnel pour un cabinet, avec une mise en page moderne et une navigation optimisée. Mission freelance incluant la conception, l'intégration et l'optimisation des performances.",
-    stack: "React.js, Tailwind Css",
+    stack: "React.js + Tailwind Css...",
   },
   {
     title: "Application de crypto-monnaie",
@@ -21,7 +21,7 @@ export const projects = [
     url: "https://my-cryptowatch.netlify.app/",
     description:
       "Développement d'une application de gestion de crypto-monnaie durant ma formation, avec des fonctionnalités de suivi en temps réel.",
-    stack: "React.js, Sass(Scss), Rest Api",
+    stack: "React.js + Sass(Scss) + Rest Api...",
   },
   {
     title: "Mon portfolio",
@@ -29,6 +29,6 @@ export const projects = [
     url: "/",
     description:
       "Un projet mettant en valeur mes compétences en développement front-end à travers un design responsive, permettant de présenter mes projets de manière professionnelle.",
-    stack: "Next.js, Tailwind Css, ",
+    stack: "Next.js + Tailwind Css... ",
   },
 ];
