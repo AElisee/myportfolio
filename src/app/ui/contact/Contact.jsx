@@ -16,14 +16,14 @@ const Contact = () => {
         <div className="flex flex-col h-full">
           <div className="flex flex-col md:flex-row gap-5 mb-5">
             <div className="w-full md:w-1/2 flex flex-col pb-8 md:pb-16">
-              <div className="flex gap-2 items-center">
+              <div className="flex gap-2 items-center justify-center text-center">
+                <span className="text-2xl md:text-3xl">🤝</span>
                 <h3 className="text-indigo-800 text-2xl md:text-3xl font-semibold leading-12 underline">
                   Entrons en contact
                 </h3>
-                <span className="text-2xl md:text-3xl">🤝</span>
               </div>
               <div className="py-5 md:py-14">
-                <h4 className="text-2xl md:text-3xl text-slate-600 text-wrap">
+                <h4 className="text-xl md:text-2xl text-slate-600 text-wrap text-center">
                   Je suis impatient de collaborer avec vous ! 🎉
                 </h4>
               </div>
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-2 justify-between">
-            <PreviousSection sectionId="#portfolio" desc="#portfolio" />
+            <PreviousSection sectionId="#portfolio" desc="portfolio" />
           </div>
         </div>
       </div>

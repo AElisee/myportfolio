@@ -110,10 +110,10 @@ const ContactForm = () => {
       <button
         type="submit"
         className="flex items-center justify-center
-       gap-1 cursor-pointer bg-white w-max p-2 px-6 shadow-md hover:bg-slate-50 font-semibold"
+       gap-2 cursor-pointer bg-indigo-900 rounded-md text-white hover:text-gray-800 w-max p-2 px-6 shadow-md hover:bg-slate-50"
       >
         {pending ? "En cours d'envoi..." : "Envoyer"}
-        <IoMdSend className="text-indigo-800" />
+        <IoMdSend />
       </button>
       <p className="formMessage">{message}</p>
     </form>

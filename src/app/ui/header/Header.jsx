@@ -42,7 +42,7 @@ const Header = () => {
             </p>
           </div>
           <div className="flex gap-2 items-center justify-end">
-            <NextSection sectionId="#about" desc="#a-propos" />
+            <NextSection sectionId="#about" desc="à propos" />
           </div>
         </div>
       </div>

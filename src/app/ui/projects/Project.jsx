@@ -51,8 +51,8 @@ const Project = () => {
             </p>
           </div>
           <div className="flex gap-2 justify-between">
-            <PreviousSection sectionId="#about" desc="#a-propos" />
-            <NextSection sectionId="#contact" desc="#contact" />
+            <PreviousSection sectionId="#about" desc="à propos" />
+            <NextSection sectionId="#contact" desc="contact" />
           </div>
         </div>
       </div>

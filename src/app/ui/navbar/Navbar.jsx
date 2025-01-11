@@ -39,9 +39,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="sticky top-0 w-[100%] h-[60px] py-3 md:px-4 flex glass items-center justify-between px-4  z-50  rounded-md">
+    <div className="sticky top-0 w-[100%]  h-[60px] py-3 md:px-8 flex glass items-center justify-between px-4  z-50  rounded-md ">
       <div className="w-1/5">
-        <div className="hidden md:block text-3xl">
+        <div className="hidden md:flex md:items-center text-3xl   gap-3">
           <div className="w-[35px] h-[35px] cursor-pointer rounded-full  overflow-hidden">
             <div className="w-full h-full relative">
               <Image
@@ -52,6 +52,7 @@ const Navbar = () => {
               />
             </div>
           </div>
+          <small className="text-sm"> Ange-Elisée</small>
         </div>
         <div
           className="md:hidden cursor-pointer"
